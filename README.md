@@ -59,13 +59,19 @@ upgrades and backups.
 
 The containers come from the GitHub Container Registry (`ghcr.io/sebastined`)
 and, as a mirror, Docker Hub (`docker.io/sebastined`). Every image is signed
-with [cosign](https://docs.sigstore.dev/) by the release workflow, so you can
-check one before running it:
+with [cosign](https://docs.sigstore.dev/), so you can check one before
+running it. Releases are signed with Amadioha's key, whose public half is
+`cosign.pub` in this repository:
 
 ```sh
-cosign verify ghcr.io/sebastined/amadioha-agent:1.0.0 \
-  --certificate-oidc-issuer https://token.actions.githubusercontent.com \
-  --certificate-identity-regexp '^https://github\.com/sebastined/Amadioha/\.github/workflows/release\.yml@refs/tags/v'
+cosign verify --key cosign.pub ghcr.io/sebastined/amadioha-soc-manager:1.0.0
+```
+
+Each release's checksum files have a signature beside them
+(`SHA256SUMS.sigstore.json`):
+
+```sh
+cosign verify-blob --key cosign.pub --bundle SHA256SUMS.sigstore.json SHA256SUMS
 ```
 
 ## Licence
