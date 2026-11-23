@@ -1,0 +1,152 @@
+Amadioha Free Use License 1.0
+
+Copyright (c) 2026 sebastined (github.com/sebastined), the owner of Amadioha
+(the "Licensor"). All rights reserved.
+
+This license covers Amadioha in every form the Licensor makes it available:
+the standalone edition (Amadioha SOC), the managed service provider edition
+(Amadioha MSP), the agents, container images, Linux packages, Helm charts,
+install bundles and documentation, including any source code they contain
+(together, the "Software").
+
+In short: you may use the Software free of charge, for your own organisation
+and, with the MSP edition, to serve your clients. You do not own it: you may
+not copy, change, take apart or redistribute it. It is free until the
+Licensor makes it paid, with notice. The sections below are the terms.
+
+
+1. Acceptance
+
+By downloading, installing or using the Software you agree to this license.
+If you use it on behalf of an organisation, you agree for that organisation,
+and "you" means it too. If you do not agree, do not use the Software.
+
+
+2. What you may do, free of charge
+
+While this license is in force, the Licensor grants you a worldwide,
+non-exclusive, non-transferable, non-sublicensable license to:
+
+  (a) install and run the Software, as the Licensor publishes it, on systems
+      you control, for any number of hosts and users;
+
+  (b) use it to protect your own organisation and, with the MSP edition, to
+      provide security monitoring services to your clients, including giving
+      them access to its console to see their own data; and
+
+  (c) make the copies (a) and (b) need, such as backups, copies for disaster
+      recovery, and mirrors of the published images and packages inside your
+      own network.
+
+
+3. What you may not do
+
+You may not, and may not let anyone else:
+
+  (a) copy, modify, adapt, translate or make derivative works of the
+      Software, except configuring it through the settings and files its
+      documentation describes;
+
+  (b) extract, decompile, disassemble or reverse-engineer the Software or its
+      source code, except to the extent applicable law expressly permits
+      despite this restriction;
+
+  (c) sell, resell, rent, lease, lend, publish, redistribute or sublicense the
+      Software or any part of it, or make it available for download, except
+      the copies section 2(c) allows;
+
+  (d) offer the Software, or a product built on it, to third parties as a
+      product, a hosted platform, or a white-labelled service that they
+      operate or administer themselves (providing your own managed security
+      services under section 2(b) is allowed);
+
+  (e) remove, hide or change any copyright, license or trademark notice, or
+      the Amadioha name and branding in the Software;
+
+  (f) use the Software, its code or its design to build, or to train, a
+      competing product; or
+
+  (g) get around any license key or other technical limit the Licensor adds
+      in a later version.
+
+
+4. Ownership
+
+The Software is licensed, not sold. The Licensor owns the Software, its
+source code, designs and documentation, and all intellectual property rights
+in them, and keeps every right this license does not expressly grant.
+
+You own your data. The Licensor claims no rights in the logs, alerts, scans
+and other data you process with the Software, and the Software does not send
+your data to the Licensor.
+
+
+5. Fees
+
+The Software is free of charge for now. The Licensor may decide at any time
+that the Software, an edition, a feature or a later version requires a paid
+license.
+
+  (a) For versions you already use, the Licensor will announce the fee at
+      least ninety (90) days before it applies, in the release notes and on
+      the project's pages. From that date, continued use of those versions
+      requires a paid license; otherwise you must stop using them.
+
+  (b) Versions released after a fee is announced may be offered under paid
+      terms only.
+
+  (c) This license does not entitle you to support, updates or future
+      versions.
+
+
+6. Feedback
+
+If you send the Licensor suggestions, reports or other feedback, the Licensor
+may use it without restriction and without any obligation to you.
+
+
+7. Third-party software
+
+The Software includes third-party components under their own licenses, listed
+in THIRD_PARTY_NOTICES.md, and detection rules from SigmaHQ under the
+Detection Rule License 1.1, each credited to its author. Those licenses govern
+those components, and nothing in this license limits the rights they give you.
+
+
+8. Termination
+
+This license ends automatically if you breach it. The Licensor may also end
+it, for everyone or for one licensee, with ninety (90) days' notice; an end
+because of fees follows section 5. When it ends, you must stop using the
+Software and delete your copies. Sections 3, 4 and 6 to 11 survive.
+
+
+9. No warranty
+
+The Software is provided "as is" and "as available", without warranty of any
+kind, express or implied, including merchantability, fitness for a particular
+purpose, non-infringement, and that it will detect every threat or
+vulnerability. You are responsible for how you deploy, configure and rely on
+it.
+
+
+10. Limitation of liability
+
+To the fullest extent the law allows, the Licensor is not liable for any
+indirect, incidental, special, consequential or punitive damages, or for lost
+profits, revenue, data or business, arising out of the Software or this
+license, even if told such damages were possible. The Licensor's total
+liability is limited to what you paid for the Software in the twelve months
+before the claim, which while it is free is nothing. Where the law does not
+allow these limits, they apply as far as it does.
+
+
+11. General
+
+If any provision is unenforceable, the rest stays in force. This license is
+the whole agreement about its subject. The Licensor may publish new versions
+of this license; each version of the Software is governed by the license it
+ships with, unless you accept a newer one. Export control and sanctions laws
+that apply to you apply to your use of the Software.
+
+Questions about this license: chat@ikenga.ng
