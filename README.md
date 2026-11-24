@@ -60,6 +60,22 @@ sudo amadioha-soc-setup --admin-email you@example.com
 sign in. `INSTALL.md` in the bundle covers TLS for agents, single sign-on,
 upgrades and backups.
 
+## Kubernetes
+
+Two Helm charts, from `oci://ghcr.io/sebastined/charts` (from 1.0.0-rc.4):
+`amadioha` runs the platform (either edition) and `amadioha-agent` runs the
+agent on every node. Make the secrets once with `kubernetes/make-secrets.sh`
+from the bundle, then:
+
+```sh
+helm install amadioha oci://ghcr.io/sebastined/charts/amadioha \
+  --namespace amadioha --version "$version"
+```
+
+Each chart's README, shown on Artifact Hub, covers the steps and settings;
+`kubernetes/amadioha.yaml` in the bundle is the chart rendered, for
+`kubectl apply` without Helm.
+
 ## Images
 
 The containers come from the GitHub Container Registry (`ghcr.io/sebastined`)
