@@ -11,13 +11,18 @@ not public.
 
 | File | What it is |
 |---|---|
-| `amadioha-<version>.tar.gz` | The install bundle: `install.sh`, the compose file and the install guide (`INSTALL.md`) |
+| `amadioha-<version>.tar.gz` | The install bundle: `install.sh`, the compose file, the agents for Linux, macOS, Windows, containers and Kubernetes, and the install guide (`INSTALL.md`) |
 | `SHA256SUMS` | The bundle's checksum |
 | `amadioha-soc` `.deb` and `.rpm` | The server as a package, for Ubuntu, Debian and the RHEL family (Rocky, Alma, RHEL, Fedora) |
 | `amadioha-agent` `.deb` and `.rpm` | The Linux agent that sends a host's logs and metrics to the server |
 | `SHA256SUMS-packages` | The packages' checksums |
+| `amadioha-agent-<version>.tgz` | The agent's Helm chart, for Kubernetes |
+| `*.sigstore.json`, `cosign.pub` | Signatures of the checksum files, and the key to check them with (below) |
 
-Releases marked *Pre-release* are release candidates.
+Releases marked *Pre-release* are release candidates. A release candidate's
+packages carry its version with a dot: for `v1.0.0-rc.3` the bundle is
+`amadioha-1.0.0-rc.3.tar.gz` and the Ubuntu package
+`amadioha-soc_1.0.0.rc.3_all.deb`.
 
 ## Install
 
